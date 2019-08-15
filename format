@@ -1,0 +1,2 @@
+#!/bin/bash
+latexindent -m -s -l indent.yaml -w src/**/*.tex && rm -rf src/**/*.bak*

@@ -1,0 +1,90 @@
+\documentclass{report}
+
+\usepackage[utf8]{inputenc}
+% Pacote para manipular o espaçamento entre linhas
+\usepackage[brazil]{babel}
+% Pacote para manipular o espaçamento entre linhas
+\usepackage{setspace}
+% Aplica indentação ao primeiro parágrafo das seções
+\usepackage{indentfirst}
+% Modifica cores do documento
+\usepackage[usenames, dvipsnames]{xcolor}
+% Suporte à imagens
+\usepackage{graphicx}
+% Manipular posicionamento de figuras
+\usepackage{float}
+% Pacore para mesclar linhas em tabelas
+\usepackage{multirow}
+% Extensão ao bibtex, altera também o estilo das extensões
+\usepackage{natbib}
+% Suporte adicional a colunas
+\usepackage{multicol}
+
+\title{GEDU - Documento de Requisitos}
+\author{José Silva}
+\date{\today}
+
+\begin{document}
+
+\thispagestyle{empty}
+\maketitle
+\newpage
+
+% Inicia a contagem de páginas do 1
+\setcounter{page}{1}
+% Alterar contagem das páginas iniciais para
+% algarismos romanos
+\pagenumbering{roman}
+\tableofcontents
+\newpage
+
+% Gera lista de figuras
+\listoffigures
+\newpage
+
+% Adicionando lista de tabelas
+\listoftables
+\newpage
+
+% Volta para contagem normal
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\chapter{Introdução}
+
+% TODO fazer introdução
+
+Esta introdução fornece uma visão geral de todo o documento de visão. Ela
+inclui o propósito, escopo, definições, acrônimos, abreviações, referências e
+visão geral de todo o documento.
+
+\begin{enumerate}
+
+	\item
+	      Propósito: Determina o propósito deste documento de visão.
+
+	\item
+	      Escopo: Descreve brevemente o escopo deste documento de visão, incluindo a
+	      quais programas, projetos, aplicativos e processos de negócios o documento está
+	      associado. Inclui qualquer outra coisa que este documento afete ou influencie.
+
+	\item
+	      Definições, acrônimos e abreviações: Define todos os termos, acrônimos e
+	      abreviações necessários para interpretar a visão corretamente. Essas
+	      informações podem ser fornecidas por referência ao glossário do projeto, que
+	      pode ser desenvolvido online no repositório do RM.
+
+	\item
+	      Referências: Lista todos os documentos aos quais o documento de visão faz
+	      referência. Identifique cada documento por título, número de relatório (se
+	      aplicável), data e organização de publicação. Especifique as origens a partir
+	      das quais os leitores podem obter as referências; as origens estão disponíveis
+	      de maneira ideal no RM ou em outros repositórios online. Essas informações
+	      podem ser fornecidas por referência para um apêndice ou para outro documento.
+
+	\item
+	      Visão geral: Descreve o conteúdo do documento de visão e explica como o
+	      documento é organizado.
+\end{enumerate}
+
+\end{document}

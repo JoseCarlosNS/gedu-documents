@@ -1,8 +1,8 @@
-# Ignorar os PDFs gerados
-*.pdf
-
 # Created by https://www.gitignore.io/api/code,latex
 # Edit at https://www.gitignore.io/?templates=code,latex
+
+# Arquivos criados pelo latexindent
+*.bak*
 
 ### Code ###
 .vscode/*
